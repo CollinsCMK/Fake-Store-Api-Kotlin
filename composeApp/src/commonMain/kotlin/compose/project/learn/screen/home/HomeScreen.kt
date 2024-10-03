@@ -86,17 +86,6 @@ class HomeScreen: Screen {
 }
 
 @Composable
-fun fullScreenContent() {
-    Box(
-        modifier = Modifier
-            .fillMaxSize()
-            .windowInsetsPadding(WindowInsets.systemBars)
-    ) {
-
-    }
-}
-
-@Composable
 fun LoadingView() {
     Text(text = "Loading...", color = Color.Gray)
 }
